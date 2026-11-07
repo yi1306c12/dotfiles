@@ -2,4 +2,9 @@
 pacman = [
 	"git",
 	"github-cli",
+	"hyprlauncher",
+	"hyprpolkitagent",
+	"pavucontrol",
+	"waybar",
+	"wl-clipboard",
 ]
