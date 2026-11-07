@@ -1,5 +1,6 @@
 [packages]
 pacman = [
+	"base-devel",
 	"fcitx5-im",
 	"fcitx5-mozc",
 	"git",
@@ -9,4 +10,7 @@ pacman = [
 	"pavucontrol",
 	"waybar",
 	"wl-clipboard",
+]
+aur = [
+	"google-chrome"
 ]
