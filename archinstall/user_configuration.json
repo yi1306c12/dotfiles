@@ -1,0 +1,91 @@
+{
+    "app_config": {
+        "audio_config": {
+            "audio": "pipewire"
+        },
+        "fonts_config": {
+            "fonts": [
+                "noto-fonts",
+                "noto-fonts-cjk"
+            ]
+        }
+    },
+    "archinstall_language": "English",
+    "auth_config": {},
+    "bootloader_config": {
+        "bootloader": "Systemd-boot",
+        "removable": false,
+        "uki": true
+    },
+    "custom_commands": [],
+    "firmware_optdeps": [],
+    "kernels": [
+        "linux"
+    ],
+    "locale_config": {
+        "console_font": "default8x16",
+        "kb_layout": "us",
+        "sys_enc": "UTF-8",
+        "sys_lang": "en_US.UTF-8"
+    },
+    "mirror_config": {
+        "custom_repositories": [],
+        "custom_servers": [],
+        "mirror_regions": {
+            "Japan": [
+                "http://ftp.jaist.ac.jp/pub/Linux/ArchLinux/$repo/os/$arch",
+                "https://ftp.jaist.ac.jp/pub/Linux/ArchLinux/$repo/os/$arch",
+                "http://ftp.tsukuba.wide.ad.jp/Linux/archlinux/$repo/os/$arch",
+                "http://jp.mirrors.cicku.me/archlinux/$repo/os/$arch",
+                "https://jp.mirrors.cicku.me/archlinux/$repo/os/$arch",
+                "http://mirrors.cat.net/archlinux/$repo/os/$arch",
+                "https://mirrors.cat.net/archlinux/$repo/os/$arch",
+                "http://www.miraa.jp/archlinux/$repo/os/$arch",
+                "https://www.miraa.jp/archlinux/$repo/os/$arch",
+                "http://mirror.aria-on-the-planet.es/archlinux/$repo/os/$arch",
+                "https://mirror.aria-on-the-planet.es/archlinux/$repo/os/$arch",
+                "http://mirror.hashy0917.net/archlinux/$repo/os/$arch",
+                "https://mirror.hashy0917.net/archlinux/$repo/os/$arch",
+                "http://mirror.rain.ne.jp/archlinux/$repo/os/$arch",
+                "https://mirror.rain.ne.jp/archlinux/$repo/os/$arch",
+                "http://ftp.yz.yamagata-u.ac.jp/pub/linux/archlinux/$repo/os/$arch",
+                "https://ftp.yz.yamagata-u.ac.jp/pub/linux/archlinux/$repo/os/$arch"
+            ]
+        },
+        "optional_repositories": []
+    },
+    "network_config": {
+        "type": "nm"
+    },
+    "ntp": true,
+    "packages": [
+        "gnome-keyring",
+        "chezmoi"
+    ],
+    "pacman_config": {
+        "color": true,
+        "parallel_downloads": 5
+    },
+    "profile_config": {
+        "greeter": "ly",
+        "profile": {
+            "custom_settings": {
+                "Hyprland": {
+                    "seat_access": "systemd-logind"
+                }
+            },
+            "details": [
+                "Hyprland"
+            ],
+            "main": "Desktop"
+        }
+    },
+    "script": null,
+    "services": [],
+    "swap": {
+        "algorithm": "zstd",
+        "enabled": true
+    },
+    "timezone": "UTC",
+    "version": "4.5"
+}
