@@ -1,5 +1,6 @@
 [services]
 user = [
+	"fcitx5",
 	"hyprpolkitagent",
 	"waybar",
 ]
