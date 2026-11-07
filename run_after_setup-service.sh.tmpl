@@ -1,0 +1,4 @@
+#!/bin/bash
+{{ range .services.user -}}
+systemctl --user enable {{ . }}
+{{ end -}}
