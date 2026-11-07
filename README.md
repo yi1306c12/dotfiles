@@ -8,6 +8,11 @@ archinstall --config https://raw.githubusercontent.com/yi1306c12-lab/dotfiles/ma
 reboot 0
 ```
 
+- fill
+  - `disk_config`
+  - `hostname`
+  - `gfx_driver`
+
 ```sh
 chezmoi init --apply yi1306c12-lab
 ```
