@@ -23,10 +23,17 @@
 
 -- See https://wiki.hypr.land/configuring/core/monitors/
 hl.monitor({
-    output   = "",
-    mode     = "preferred",
-    position = "auto",
-    scale    = "auto",
+    output   = "DP-1",
+    mode     = "3840x2160@60.00Hz",
+    position = "0x0",
+    scale    = "1",
+})
+hl.monitor({
+    output    = "HDMI-A-1",
+    mode      = "3840x2160@60.00Hz",
+    position  = "3840x0",
+    scale     = 1.5,
+    transform = 3,
 })
 
 
