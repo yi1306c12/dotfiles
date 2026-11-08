@@ -1,5 +1,6 @@
 [packages]
 pacman = [
+	"audacity",
 	"base-devel",
 	"fcitx5-im",
 	"fcitx5-mozc",
