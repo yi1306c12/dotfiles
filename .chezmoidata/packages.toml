@@ -21,4 +21,5 @@ pacman = [
 aur = [
 	"google-chrome",
 	"ttf-twemoji",
+	"visual-studio-code-bin",
 ]
