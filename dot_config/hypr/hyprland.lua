@@ -23,19 +23,19 @@
 
 -- See https://wiki.hypr.land/configuring/core/monitors/
 hl.monitor({
-    output   = "DP-1",
+    output    = "desc:LG Electronics LG HDR 4K 0x00054833",
     mode     = "3840x2160@60.00Hz",
     position = "0x0",
-    scale    = "1",
+    scale    = 1,
 })
 hl.monitor({
-    output    = "HDMI-A-1",
+    output   = "desc:LG Electronics LG ULTRAGEAR+ 410NTYT71506",
     mode      = "3840x2160@60.00Hz",
     position  = "3840x0",
     scale     = 1.5,
     transform = 3,
 })
-
+hl.monitor({ output = "", mode = "preferred", position = "auto", scale = 1 })
 
 ---------------------
 ---- MY PROGRAMS ----
